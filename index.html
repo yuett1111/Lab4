@@ -8,20 +8,47 @@
 </head>
 
 <body>
-    <h1>My Virtual Pet</h1>
-    <p>HP: <span id="hp">80</span></p>
-    <p>Fullness: <span id="fullness">50</span></p>
-    <p>Happiness: <span id="happiness">50</span></p>
 
-    <p id="message">I'm doing okay!</p>
+    <div class="container">
 
-    <button id="feed-button">Feed</button>
-    <button id="play-button">Play</button>
-    <button id="sleep-button">Sleep</button>
+        <div class="intro">
+            <h1>My Virtual Pet - Bugie</h1>
+            <img id="petImg" src="images/intro.jpg">
+            <p> This is Bugie, Your Virtual Pet! </p>
+            <p>In this game, you will take care of your virtual pet by feeding it, playing with it, and letting it sleep. </p>
+            <p>Keep an eye on its health, fullness, and happiness levels to ensure it stays happy and healthy!</p>
+        </div>
 
-    <br>
+        <div class="status">
+            <h2>Pet Status</h2>
 
-    <button id="restart-button">Restart</button>
+            <div class="statBox">
+                <p>HP</p>
+                <p id="hp">70</p>
+            </div>
+            <div class="statBox">
+                <p> Fullness</p>
+                <p id="fullness">60</p>
+            </div>
+            <div class="statBox">
+                <p>Happiness</p>
+                <p id="happiness">50</p>
+            </div>
+        </div>
+
+        <div class="message">
+            <p id="message">Hi! I'm Bugie. Keep my HP, fullness, and happiness up by feeding me, playing with me, and letting me rest!</p>
+        </div>  
+
+        <div class="buttons">
+            <button id="sleepButton">Sleep</button>
+            <button id="feedButton">Feed</button>
+            <button id="playButton">Play</button>
+        </div>
+
+        <button id="restartButton">Restart</button>
+
+    </div>
 
     <script src="script.js"></script>
     
